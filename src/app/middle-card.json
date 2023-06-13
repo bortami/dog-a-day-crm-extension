@@ -1,0 +1,16 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Dog of the Day",
+    "location": "crm.record.tab",
+    "fetch": {
+      "targetFunction": "crm-card",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": [ "firstname"]
+        }
+      ]
+    }
+  }
+}

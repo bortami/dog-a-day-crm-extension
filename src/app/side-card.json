@@ -1,0 +1,16 @@
+{
+    "type": "crm-card",
+    "data": {
+      "title": "Dog Pictures",
+      "location": "crm.record.sidebar",
+      "fetch": {
+        "targetFunction": "crm-card",
+        "objectTypes": [
+          {
+            "name": "contacts",
+            "propertiesToSend": [ "firstname"]
+          }
+        ]
+      }
+    }
+  }
